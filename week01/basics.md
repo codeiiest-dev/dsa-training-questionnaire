@@ -126,4 +126,4 @@
         ```
     4. Pascal's Triangle by implementing a function `int nCr (int n, int r){}`
 
-    5. Input n, generate NxN Identity Matrix
+    5. Input N, generate NxN Identity Matrix
