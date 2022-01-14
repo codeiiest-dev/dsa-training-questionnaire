@@ -97,3 +97,33 @@
     5. If the result from Step 4 is divisible by 10, the card number is valid; otherwise, it is invalid.
 
      </details>
+
+5.  Now for the last one, let's test your ability to handle nested loops. Print the following patters using nested loops
+    1.  ```
+                1
+              2 3 2
+            3 4 5 4 3
+          4 5 6 7 6 5 4
+        5 6 7 8 9 8 7 6 5
+        ```
+    2.  ```
+        *****1*****
+        ****2*2****
+        ***3*3*3***
+        **4*4*4*4**
+        *5*5*5*5*5*
+        ```
+    3.  ```
+                *
+              *   *
+            *       *
+          *           *
+        *               *
+          *           * 
+            *       *
+              *   *
+                *
+        ```
+    4. Pascal's Triangle by implementing a function `int nCr (int n, int r){}`
+
+    5. Input n, generate NxN Identity Matrix
