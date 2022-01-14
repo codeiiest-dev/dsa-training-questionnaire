@@ -79,7 +79,7 @@
     -   Eg: `379354508162306` is a valid credit card number
     -   Eg: `4388576018402626` is an invalid credit card number
     <details>
-    <summary>Open me after solving the problem</summary>
+    <summary>Implement this problem using the following algorithm</summary>
 
     Here we will define a special algorithm called `Luhn Check` or `Mod 10 Check` which is used for this exact problem. You will have to implement it.
 
