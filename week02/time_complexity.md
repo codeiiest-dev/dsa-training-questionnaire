@@ -12,7 +12,7 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is ![](https://bit.ly/3tOujiW)
+    -   Answer is ![](http://www.sciweavers.org/tex2img.php?eq=O%281%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
     -   It's because only one addition operation is taking place and returned to caller function
 
     </details>
@@ -28,8 +28,8 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is ![](https://bit.ly/3tO8Zty)
-    -   It's because the loop variable at worst can go to ![](https://bit.ly/3tO8Zty)
+    -   Answer is ![](http://www.sciweavers.org/tex2img.php?eq=O%28%5Clfloor%20%5Csqrt%7Bn%7D%20%5Crfloor%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+    -   It's because the loop variable at worst can go to ![](http://www.sciweavers.org/tex2img.php?eq=O%28%5Clfloor%20%5Csqrt%7Bn%7D%20%5Crfloor%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
 
     </details>
 
@@ -46,8 +46,8 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is ![](https://bit.ly/32m9TCv)
-    -   It's because the loop will go through alll the bits of ![](https://bit.ly/3KvxRMO), and we know that $n$ will have at max ![](https://bit.ly/32m9TCv) digits in binary format.
+    -   Answer is ![](http://www.sciweavers.org/tex2img.php?eq=O%28log%7B_2%7D%7Bn%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+    -   It's because the loop will go through all the bits of n, and we know that n will have at max ![](http://www.sciweavers.org/tex2img.php?eq=O%28log%7B_2%7D%7Bn%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) digits in binary format.
     -   [Here's a simple refresher about basics of binary number system](https://arith-matic.com/notebook/binary-numbers)
 
     </details>
@@ -61,21 +61,20 @@ Find the Time Complexities of the following functions
             for (int j = i + 1; j < arr_size; i++)
                 if (arr[i] + arr[j] == target)
                     return true;
-
         return false;
     }
     ```
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is ![](https://bit.ly/3qNRXKg)
+    -   Answer is $O(n^2)$
     -   Explanation
-        -   for i = 0, j will go 1,2,3,4,...(n - 1) -> (n - 1) steps
-        -   for i = 1, j will go 2,3,4,5...(n - 1) -> (n - 2) steps
-        -   for i = 2, j will go 3,4,5,6...(n - 1) -> (n - 3) steps
-        -   For every i, j loop will go through (i + 1), (i + 2),...(n - 1) -> (n - i - 1) steps
-        -   So Total Number of Steps = ![](https://bit.ly/3rCY6Z8)
-        -   which equals (skipping some steps) ![](https://bit.ly/3Kwtj8K)
+        -   for $i = 0$, $j$ will go $1,2,3,4,...(n - 1)$ -> $(n - 1)$ steps
+        -   for $i = 1$, $j$ will go $2,3,4,5...(n - 1)$ -> $(n - 2)$ steps
+        -   for $i = 2$, $j$ will go $3,4,5,6...(n - 1)$ -> $(n - 3)$ steps
+        -   For every $i$, $j$ loop will go through $i + 1, i + 2,...(n - 1)$ -> $(n - i - 1)$ steps
+        -   So Total Number of Steps = $\sum_{i=0}^{n - 1} (n - i - 1)$
+        -   which equals (skipping some steps) $\frac{n(n-1)}{2} - n(n-1) = O(n^2)$
 
     </details>
 
@@ -84,11 +83,9 @@ Find the Time Complexities of the following functions
     {
         int left = 0;
         int right = arr_size - 1;
-
         while (left <= right)
         {
             int mid = left + (right - left) / 2;
-
             if (arr[mid] == target)
                 return mid;
             else if (arr[mid] > target)
@@ -96,14 +93,13 @@ Find the Time Complexities of the following functions
             else
                 left = mid + 1;
         }
-
         return -1;
     }
     ```
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is ![](https://bit.ly/32m9TCv)
+    -   Answer is $O(log_2(n))$
     -   Refer [here](https://www.geeksforgeeks.org/complexity-analysis-of-binary-search/) for the detailed explaination
 
     </details>
