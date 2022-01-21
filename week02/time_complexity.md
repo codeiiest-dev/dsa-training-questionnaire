@@ -71,7 +71,7 @@ Find the Time Complexities of the following functions
         -   for i = 0, j will go 1,2,3,4...(n - 1) -> (n - 1) steps
         -   for i = 1, j will go 2,3,4,5...(n - 1) -> (n - 2) steps
         -   for i = 2, j will go 3,4,5,6...(n - 1) -> (n - 3) steps
-        -   For every i, j loop will go through i + 1, i + 2,...(n - 1)$ -> $(n - i - 1) steps
+        -   For every i, j loop will go through i + 1, i + 2,...(n - 1) -> (n - i - 1) steps
         -   So Total Number of Steps = ![](https://www.bruot.org/tex2img/media/SuWnfOZJE8XJaC36AIjEeXm5L1GUlAv4WrFxl0dIXs69/tex2img_equation.png)
         -   which equals (skipping some steps) ![](https://www.bruot.org/tex2img/media/a2kMlrOGeQHz5iaDLWNu7ZceLyyzX2BMBH8npxO4tS0b/tex2img_equation.png)
 
