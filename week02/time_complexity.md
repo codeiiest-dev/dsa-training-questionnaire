@@ -12,7 +12,7 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is ![](http://www.sciweavers.org/tex2img.php?eq=O%281%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+    -   Answer is $O(1)$
     -   It's because only one addition operation is taking place and returned to caller function
 
     </details>
@@ -28,8 +28,8 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is ![](http://www.sciweavers.org/tex2img.php?eq=O%28%5Clfloor%20%5Csqrt%7Bn%7D%20%5Crfloor%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-    -   It's because the loop variable at worst can go to ![](http://www.sciweavers.org/tex2img.php?eq=O%28%5Clfloor%20%5Csqrt%7Bn%7D%20%5Crfloor%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+    -   Answer is $O(\lfloor \sqrt{n} \rfloor)$
+    -   It's because the loop variable at worst can go to $\lfloor \sqrt{n} \rfloor$
 
     </details>
 
@@ -46,8 +46,8 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is ![](http://www.sciweavers.org/tex2img.php?eq=O%28log%7B_2%7D%7Bn%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-    -   It's because the loop will go through all the bits of n, and we know that n will have at max ![](http://www.sciweavers.org/tex2img.php?eq=O%28log%7B_2%7D%7Bn%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0) digits in binary format.
+    -   Answer is $O(log{_2}{n})$
+    -   It's because the loop will go through alll the bits of $n$, and we know that $n$ will have at max $log{_2}{n}$ digits in binary format.
     -   [Here's a simple refresher about basics of binary number system](https://arith-matic.com/notebook/binary-numbers)
 
     </details>
