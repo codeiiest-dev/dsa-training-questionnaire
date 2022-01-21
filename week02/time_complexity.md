@@ -55,8 +55,7 @@ Find the Time Complexities of the following functions
 -   You might need to revise [C style arrays](https://learning.rc.virginia.edu/courses/cpp_introduction/c_arrays/) for the follwoing two questions
 
 4.  ```cpp
-    bool nested_two_sum(int arr[], int arr_size, int target)
-    {
+    bool nested_two_sum(int arr[], int arr_size, int target){
         for (int i = 0; i < arr_size; i++)
             for (int j = i + 1; j < arr_size; i++)
                 if (arr[i] + arr[j] == target)
@@ -79,12 +78,10 @@ Find the Time Complexities of the following functions
     </details>
 
 5.  ```cpp
-    int binary_search(int arr[], int arr_size, int target)
-    {
+    int binary_search(int arr[], int arr_size, int target){
         int left = 0;
         int right = arr_size - 1;
-        while (left <= right)
-        {
+        while (left <= right){
             int mid = left + (right - left) / 2;
             if (arr[mid] == target)
                 return mid;
