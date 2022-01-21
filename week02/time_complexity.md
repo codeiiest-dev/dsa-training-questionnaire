@@ -12,7 +12,7 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is O(n)
+    -   Answer is O(1)
     -   It's because only one addition operation is taking place and returned to caller function
 
     </details>
