@@ -12,7 +12,7 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is $O(1)$
+    -   Answer is O(n)
     -   It's because only one addition operation is taking place and returned to caller function
 
     </details>
@@ -28,8 +28,8 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is $O(\lfloor \sqrt{n} \rfloor)$
-    -   It's because the loop variable at worst can go to $\lfloor \sqrt{n} \rfloor$
+    -   Answer is ![](https://www.bruot.org/tex2img/media/k918C1WqOX5soeSiwsBZnq3jkFvLJOjb5DQ0hwOp2qez/tex2img_equation.png)
+    -   It's because the loop variable at worst can go to ![](https://www.bruot.org/tex2img/media/k918C1WqOX5soeSiwsBZnq3jkFvLJOjb5DQ0hwOp2qez/tex2img_equation.png)
 
     </details>
 
@@ -46,8 +46,8 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is $O(log{_2}{n})$
-    -   It's because the loop will go through alll the bits of $n$, and we know that $n$ will have at max $log{_2}{n}$ digits in binary format.
+    -   Answer is ![](https://www.bruot.org/tex2img/media/jhnQg6n1ChKFrPnNnhOZHCdKXgBGFmRAM8z7lSJfJfbB/tex2img_equation.png)
+    -   It's because the loop will go through alll the bits of n, and we know that n will have at max ![](https://www.bruot.org/tex2img/media/jhnQg6n1ChKFrPnNnhOZHCdKXgBGFmRAM8z7lSJfJfbB/tex2img_equation.png) digits in binary format.
     -   [Here's a simple refresher about basics of binary number system](https://arith-matic.com/notebook/binary-numbers)
 
     </details>
@@ -67,14 +67,14 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is $O(n^2)$
+    -   Answer is O(n^2)
     -   Explanation
-        -   for $i = 0$, $j$ will go $1,2,3,4,...(n - 1)$ -> $(n - 1)$ steps
-        -   for $i = 1$, $j$ will go $2,3,4,5...(n - 1)$ -> $(n - 2)$ steps
-        -   for $i = 2$, $j$ will go $3,4,5,6...(n - 1)$ -> $(n - 3)$ steps
-        -   For every $i$, $j$ loop will go through $i + 1, i + 2,...(n - 1)$ -> $(n - i - 1)$ steps
-        -   So Total Number of Steps = $\sum_{i=0}^{n - 1} (n - i - 1)$
-        -   which equals (skipping some steps) $\frac{n(n-1)}{2} - n(n-1) = O(n^2)$
+        -   for i = 0, j will go 1,2,3,4...(n - 1) -> (n - 1) steps
+        -   for i = 1, j will go 2,3,4,5...(n - 1) -> (n - 2) steps
+        -   for i = 2, j will go 3,4,5,6...(n - 1) -> (n - 3) steps
+        -   For every i, j loop will go through i + 1, i + 2,...(n - 1)$ -> $(n - i - 1) steps
+        -   So Total Number of Steps = ![](https://www.bruot.org/tex2img/media/SuWnfOZJE8XJaC36AIjEeXm5L1GUlAv4WrFxl0dIXs69/tex2img_equation.png)
+        -   which equals (skipping some steps) ![](https://www.bruot.org/tex2img/media/a2kMlrOGeQHz5iaDLWNu7ZceLyyzX2BMBH8npxO4tS0b/tex2img_equation.png)
 
     </details>
 
@@ -99,7 +99,7 @@ Find the Time Complexities of the following functions
 
     <details><summary>Click here for answer and hint</summary>
 
-    -   Answer is $O(log_2(n))$
+    -   Answer is ![](https://www.bruot.org/tex2img/media/jhnQg6n1ChKFrPnNnhOZHCdKXgBGFmRAM8z7lSJfJfbB/tex2img_equation.png)
     -   Refer [here](https://www.geeksforgeeks.org/complexity-analysis-of-binary-search/) for the detailed explaination
 
     </details>
