@@ -1,6 +1,6 @@
 # DSA Training Questionnaire
 
-## Week 1: Basics of Programming
+## Week 2: Complexity Analysis
 
 Find the Time Complexities of the following functions
 
