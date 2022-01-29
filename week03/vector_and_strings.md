@@ -11,6 +11,7 @@ Now let's Introduce you to the portal to practice more DSA Problems, [LeetCode](
 3.  [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)
 4.  [Single Number](https://leetcode.com/problems/single-number/)
 5.  [Assign Cookies](https://leetcode.com/problems/assign-cookies/)
+6.  [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 
 ### Strings
 
